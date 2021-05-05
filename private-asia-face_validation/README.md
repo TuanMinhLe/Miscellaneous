@@ -30,6 +30,6 @@
 | CPLFW   | 0.896    | 1.504     |
 
 - Visualize: 
-<img src="https://github.com/TuanMinhLe/Miscellaneous/tree/master/private-asia-face_validation/images/LFW_ROC-curve.png" width="900px"/>
-<img src="https://github.com/TuanMinhLe/Miscellaneous/tree/master/private-asia-face_validation/images/CALFW_ROC-curve.png" width="900px"/>
-<img src="https://github.com/TuanMinhLe/Miscellaneous/tree/master/private-asia-face_validation/images/CPLFW_ROC-curve.png" width="900px"/>
+<img src="https://github.com/TuanMinhLe/Miscellaneous/blob/master/private-asia-face_validation/images/LFW_ROC-curve.png" width="300px"/>
+<img src="https://github.com/TuanMinhLe/Miscellaneous/blob/master/private-asia-face_validation/images/CALFW_ROC-curve.png" width="300px"/>
+<img src="https://github.com/TuanMinhLe/Miscellaneous/blob/master/private-asia-face_validation/images/CPLFW_ROC-curve.png" width="300px"/>
