@@ -23,11 +23,11 @@
 
 - Result:
 
-| Dataset | F1 score | ROC curve |
-| ------- | -------- | --------- |
-| LFW     | 0.995    | 1.344     |
-| CALFW   | 0.944    | 1.379     |
-| CPLFW   | 0.896    | 1.504     |
+| Dataset | F1 score | Optimal threshold |
+| ------- | -------- | ----------------- |
+| LFW     | 0.995    | 1.344             |
+| CALFW   | 0.944    | 1.379             |
+| CPLFW   | 0.896    | 1.504             |
 
 - Visualize:
 
