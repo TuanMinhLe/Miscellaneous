@@ -1,6 +1,6 @@
 # Find optimal threshold and perform validation
 
-- Model: IR-50, trained on [ZhaoJ9014](https://github.com/ZhaoJ9014/face.evoLVe.PyTorch)'s private asia face dataset.
+- Model: [IR-50](https://drive.google.com/drive/folders/11TI4Gs_lO-fbts7cgWNqvVfm9nps2msE), trained on [ZhaoJ9014](https://github.com/ZhaoJ9014/face.evoLVe.PyTorch)'s private asia face dataset.
 
 - Datasets:
 
@@ -29,7 +29,8 @@
 | CALFW   | 0.944    | 1.379     |
 | CPLFW   | 0.896    | 1.504     |
 
-- Visualize: 
-<img src="https://github.com/TuanMinhLe/Miscellaneous/blob/master/private-asia-face_validation/images/LFW_ROC-curve.png" width="500px"/>
-<img src="https://github.com/TuanMinhLe/Miscellaneous/blob/master/private-asia-face_validation/images/CALFW_ROC-curve.png" width="500px"/>
-<img src="https://github.com/TuanMinhLe/Miscellaneous/blob/master/private-asia-face_validation/images/CPLFW_ROC-curve.png" width="500px"/>
+- Visualize:
+
+  <img src="https://github.com/TuanMinhLe/Miscellaneous/blob/master/private-asia-face_validation/images/LFW_ROC-curve.png" width="500px"/>
+  <img src="https://github.com/TuanMinhLe/Miscellaneous/blob/master/private-asia-face_validation/images/CALFW_ROC-curve.png" width="500px"/>
+  <img src="https://github.com/TuanMinhLe/Miscellaneous/blob/master/private-asia-face_validation/images/CPLFW_ROC-curve.png" width="500px"/>
