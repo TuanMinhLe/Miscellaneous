@@ -23,14 +23,39 @@
 
 - Result:
 
-| Dataset | F1 score | Optimal threshold |
+| Dataset | Accuracy | Optimal threshold |
 | ------- | -------- | ----------------- |
-| LFW     | 0.995    | 1.344             |
-| CALFW   | 0.944    | 1.379             |
-| CPLFW   | 0.896    | 1.504             |
+| LFW     | 0.994    | 0.3525            |
+| CALFW   | 0.939    | 0.3375            |
+| CPLFW   | 0.897    | 0.375             |
 
-- Visualize:
+- Visualize (red point is the optimal threshold in which we have the highest accuracy):
 
-  <img src="https://github.com/TuanMinhLe/Miscellaneous/blob/master/private-asia-face_validation/images/LFW_ROC-curve.png" width="500px"/>
-  <img src="https://github.com/TuanMinhLe/Miscellaneous/blob/master/private-asia-face_validation/images/CALFW_ROC-curve.png" width="500px"/>
-  <img src="https://github.com/TuanMinhLe/Miscellaneous/blob/master/private-asia-face_validation/images/CPLFW_ROC-curve.png" width="500px"/>
+  - LFW:
+
+  <img src="https://github.com/TuanMinhLe/Miscellaneous/blob/master/private-asia-face_validation/images/LFW_acc.png" width="500px"/>
+  <img src="https://github.com/TuanMinhLe/Miscellaneous/blob/master/private-asia-face_validation/images/LFW_roc.png" width="500px"/>
+
+  Range of threshold where accuracy >= 0.97: [0.2175, 0.4175].
+
+  - CALFW:
+
+  <img src="https://github.com/TuanMinhLe/Miscellaneous/blob/master/private-asia-face_validation/images/CALFW_acc.png" width="500px"/>
+  <img src="https://github.com/TuanMinhLe/Miscellaneous/blob/master/private-asia-face_validation/images/CALFW_roc.png" width="500px"/>
+
+  Range of threshold where accuracy >= 0.91: [0.28, 0.41].
+
+  - CPLFW:
+
+  <img src="https://github.com/TuanMinhLe/Miscellaneous/blob/master/private-asia-face_validation/images/CPLFW_acc.png" width="500px"/>
+  <img src="https://github.com/TuanMinhLe/Miscellaneous/blob/master/private-asia-face_validation/images/CPLFW_roc.png" width="500px"/>
+
+  Range of threshold where accuracy >= 0.87: [0.315, 0.43].
+
+- Practical usage:
+
+```
+In real face-recognition problems, we should pick threshold as the mean of these numbers:
+  - Optimal value: 0.355.
+  - Range for adaptive selection: [0.271, 0.42].
+```
